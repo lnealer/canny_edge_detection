@@ -1,5 +1,5 @@
 from gaussian_blur import gaussian_blur
-from density_gradient import intensity_gradient
+from intensity_gradient import intensity_gradient
 import numpy as np
 from PIL import Image
 from skimage.color import rgb2hsv

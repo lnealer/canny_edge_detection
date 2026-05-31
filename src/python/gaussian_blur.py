@@ -44,6 +44,7 @@ def main():
     out = gaussian_blur(img_mat, iterations = 3)
     img = Image.fromarray(out)
     img.show()
+    
 
 if __name__ == "__main__":
     main()
